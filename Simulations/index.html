@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body { margin: 0; background: #111; display: flex; flex-direction: column; height: 100vh; font-family: monospace; }
+  model-viewer { flex: 1; width: 100%; background: #111; }
+  label { color: #fff; font-size: 30px; min-width: 90px; }
+  button { color: #fff; font-size: 13px; min-width: 90px;background-color: #292424;   border-radius: 12px; height: 59px; width: 200px;}
+  .button-container {display: flex;    gap: 10px;   justify-content: center; }
+  .button-updown {display: flex;flex-direction: column;gap: 10px;justify-content: center;align-items: center;  }   
+   body {display: grid;         /* Activates Grid layout */place-items: center;   /* Centers items along both axes */}
+</style>
+</head>
+<body>
+    <label>GreenPower 2026 Simulations</label>
+    <div class="button-container">
 
+            <button onclick="window.location.href='simple.html'">Resolution 1000 </button>
+            <button>Resolution 500 </button>
+            <button>Resolution 100 </button>
+        
+    </div>
+
+</body>
